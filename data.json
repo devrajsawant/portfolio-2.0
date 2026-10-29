@@ -1,0 +1,130 @@
+{
+  "profile": {
+    "name": "Devraj Satish Sawant",
+    "location": "Mumbai, India",
+    "phone": "+91 96536 91911",
+    "email": "devrajsawant6@gmail.com",
+    "intro": "I’m based in Mumbai. I build web applications with React, Next.js, and TypeScript—from the screens people use to the APIs and data behind them.",
+    "availability": "Mumbai, India"
+  },
+  "experience": [
+    {
+      "period": "APR 2026 — NOW",
+      "role": "Frontend Developer",
+      "company": "Classtym",
+      "location": "Remote",
+      "story": "I work on the booking and session-management flows that connect students with experts, including payments, messaging, and video sessions.",
+      "highlights": [
+        "Built the student-to-expert booking and session-management experience.",
+        "Connected payment flows to secure, straightforward bookings.",
+        "Brought people together with real-time messaging, notifications, and BigBlueButton video sessions.",
+        "Created reusable UI and integrated REST APIs to keep product features consistent as they grow."
+      ]
+    },
+    {
+      "period": "MAY 2025 — APR 2026",
+      "role": "Frontend Developer",
+      "company": "Quvor",
+      "product": "TribeCrafter",
+      "location": "Remote",
+      "story": "At Quvor, I worked on TribeCrafter’s search, discussions, notifications, and authentication. I also handled a Mantine upgrade and refactored legacy UI.",
+      "highlights": [
+        "Built universal search, threaded newsfeed discussions, notifications, and authentication for TribeCrafter.",
+        "Added instant notification toasts over WebSockets to make conversations feel alive.",
+        "Moved Mantine from v7 to v8, working through breaking changes and dependency conflicts to restore reliable production builds.",
+        "Refactored legacy UI and introduced code splitting for a more maintainable, faster-loading app."
+      ]
+    },
+    {
+      "period": "JAN 2025 — MAY 2025",
+      "role": "Frontend Developer Intern",
+      "company": "Beam Innovate",
+      "location": "Ghansoli",
+      "story": "My first frontend role involved two production eCommerce platforms and GNEXT, a promoter-management application. I built reusable components and connected them to product APIs.",
+      "highlights": [
+        "Built reusable Next.js and TypeScript components and core features for two production eCommerce platforms.",
+        "Created GNEXT, a promoter-management application for inventory, CRUD workflows, attendance, and analytics dashboards.",
+        "Learned to work with real product constraints, evolving APIs, and the responsibility of shipping production code."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "number": "01",
+      "name": "InveeSync",
+      "type": "Enterprise email automation",
+      "role": "Full-stack developer",
+      "description": "An email-to-purchase-order workflow with a workspace for reviewing extracted order data.",
+      "story": "I built a four-panel workspace to compare incoming orders with source documents, flag validation errors, and correct fields before conversion.",
+      "details": [
+        "Built REST APIs and relational data models for complex, multi-level sales orders.",
+        "Designed field-level mappings, validation workflows, and exception handling to make order conversion safer and easier to review."
+      ],
+      "stack": [
+        "Next.js",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Sequelize"
+      ],
+      "visual": "orders"
+    },
+    {
+      "number": "02",
+      "name": "PEN School",
+      "type": "School website & content management",
+      "role": "Full-stack developer",
+      "description": "A responsive school website with a custom admin panel for blogs and events.",
+      "story": "I built the public website and the content-management interface so school staff could publish updates without editing code.",
+      "details": [
+        "Designed and built a modern, responsive site focused on visual clarity and performance.",
+        "Created a custom admin panel for updating blogs and events without changing code."
+      ],
+      "stack": [
+        "Next.js"
+      ],
+      "visual": "school"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "skills": [
+        "React",
+        "Next.js",
+        "Remix",
+        "TypeScript",
+        "JavaScript",
+        "Tailwind CSS",
+        "Mantine",
+        "Shadcn UI"
+      ]
+    },
+    {
+      "category": "Backend & data",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "MongoDB",
+        "SQL",
+        "REST APIs",
+        "JWT",
+        "Redis"
+      ]
+    },
+    {
+      "category": "Integrations & tooling",
+      "skills": [
+        "WebSockets",
+        "TanStack Query",
+        "Redux",
+        "Sequelize",
+        "Firebase",
+        "Supabase",
+        "Clerk",
+        "Git & GitHub"
+      ]
+    }
+  ]
+}

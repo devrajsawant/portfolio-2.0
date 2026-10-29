@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111210">
+  <meta name="description" content="Devraj Sawant’s corner of the internet. A developer in Mumbai, building interfaces, exploring ideas, and documenting the journey.">
+  <title>Devraj Sawant — Work in progress, on purpose.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="topbar wrap">
+    <a href="#home" class="wordmark" aria-label="Devraj, home">ds<span>✳</span></a>
+    <nav aria-label="Main navigation"><a href="#journey">The journey</a><a href="#work">Selected work</a><a href="#play">UI lab</a></nav>
+    <a class="contact-nav" href="#contact">Let’s talk <span>↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="home">
+      <div class="hero-meta mono"><span><i class="status-dot"></i> DEVRAJ SAWANT / DEVELOPER</span><span>MUMBAI, IN <time id="local-time"></time></span></div>
+      <div class="hero-stage">
+        <h1><span class="title-line"><span>A little curious.</span></span><span class="title-line"><span>A lot <em>into it.</em></span></span></h1>
+        <div class="hero-object" aria-hidden="true"><div class="object-halo"></div><div class="sculpture"><div class="sculpture-ring ring-a"></div><div class="sculpture-ring ring-b"></div><div class="sculpture-ring ring-c"></div><div class="sculpture-core">✳</div></div><span class="object-label mono">ALWAYS IN THE MAKING ↗</span></div>
+        <span class="hero-sticker" aria-hidden="true">built on<br><strong>curiosity.</strong><span>↗</span></span>
+      </div>
+      <div class="hero-bottom"><p>I’m Devraj. I turn complicated flows into interfaces people can actually use.<br><span>React, Next.js, and the details in between.</span></p><a class="round-link magnetic" href="#journey" aria-label="Explore my journey">↓</a><span class="hero-index mono">SCROLL A LITTLE.<br>THERE’S A STORY HERE.</span></div>
+    </section>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>BUILD. BREAK. FIGURE IT OUT. <i>✳</i> REPEAT. <i>✳</i> BUILD. BREAK. FIGURE IT OUT. <i>✳</i> REPEAT. <i>✳</i></span><span>BUILD. BREAK. FIGURE IT OUT. <i>✳</i> REPEAT. <i>✳</i> BUILD. BREAK. FIGURE IT OUT. <i>✳</i> REPEAT. <i>✳</i></span></div></div>
+    <section class="journey wrap section" id="journey">
+      <div class="section-label mono reveal"><span>01 / THE JOURNEY</span><span>A FEW CHAPTERS IN</span></div>
+      <div class="journey-layout">
+        <div class="journey-intro"><h2 class="reveal">It didn’t happen<br>in a <em>straight line.</em></h2><p class="reveal">From my first production components to booking flows and real-time conversations. Each project gave me a different problem to get my head around.</p><div class="chapter-indicator" aria-hidden="true"><span id="chapter-count">01</span><span class="mono">CHAPTER<br>OF 03</span><div class="chapter-meter"><i></i></div></div><a href="#work" class="text-link">The things I made along the way ↗</a></div>
+        <div class="chapters" id="journey-list"></div>
+      </div>
+    </section>
+    <section class="work-section section" id="work"><div class="wrap">
+      <div class="section-label mono reveal"><span>02 / SELECTED WORK</span><span>FROM IDEA TO “IT WORKS”</span></div>
+      <div class="section-heading reveal"><h2>Less talk.<br><em>Here’s the work.</em></h2><p>Two projects where I worked across the interface, the data, and everything connecting them.</p></div>
+      <div id="projects-grid" class="projects"></div>
+    </div></section>
+    <section class="play-section section wrap" id="play">
+      <div class="section-label mono reveal"><span>03 / INTERACTION LAB</span><span>A STUDY IN MOTION</span></div>
+      <div class="section-heading reveal"><h2>Small details.<br><em>Big difference.</em></h2><p>An interactive study in form, color, and motion. Change the properties below to see the interface respond.</p></div>
+      <div class="play-grid"><div class="playground reveal"><div class="playground-top mono"><span>EXPERIMENT 001 / FORM & COLOR</span><span>LIVE</span></div><div class="play-canvas" aria-hidden="true"><div class="play-orb"><i></i><i></i><i></i><span>✳</span></div></div><div class="play-controls"><div class="swatches" role="group" aria-label="Sculpture color"><button class="swatch active" data-color="lime" aria-label="Lime" aria-pressed="true"></button><button class="swatch" data-color="lilac" aria-label="Lilac" aria-pressed="false"></button><button class="swatch" data-color="orange" aria-label="Orange" aria-pressed="false"></button></div><button class="shape-toggle" aria-pressed="false">Change the shape ↗</button></div></div><div class="toolbox reveal"><span class="mono">THE EVERYDAY KIT</span><h3>Different tools.<br>Same curiosity.</h3><div id="skill-groups"></div><p class="toolbox-note">React on the surface.<br>A little bit of everything underneath.</p></div></div>
+    </section>
+    <section class="contact-section" id="contact"><div class="wrap">
+      <div class="section-label mono"><span>04 / WHAT’S NEXT?</span><span><i class="status-dot"></i> OPEN TO A CONVERSATION</span></div>
+      <a class="big-contact" href="mailto:devrajsawant6@gmail.com"><span>Let’s make<br><em>something click.</em></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+      <div class="contact-bottom"><a id="contact-email" href="mailto:devrajsawant6@gmail.com">devrajsawant6@gmail.com</a><span class="mono">MUMBAI, INDIA · IDEAS WELCOME</span><a href="#home" class="mono">BACK TO TOP ↑</a></div>
+    </div></section>
+  </main>
+  <footer class="wrap"><a class="wordmark" href="#home">ds<span>✳</span></a><span class="mono">DESIGNED TO MOVE. BUILT TO WORK.</span><div class="footer-controls"><button id="motion-toggle" aria-pressed="false">Pause motion</button><span class="mono" id="copyright-year"></span></div></footer>
+  <noscript><p class="load-error">Enable JavaScript to see the project and journey details. You can still reach me using the email link above.</p></noscript>
+</body>
+</html>
